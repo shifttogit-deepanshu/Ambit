@@ -1,0 +1,24 @@
+.header--container{
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid rgb(211, 211, 211);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header--logo{
+    width:100%;
+    padding:10px;
+}
+.header--logo--image{
+    width:100px;
+}
+.header-btn{
+    border:2px solid #DC493A;
+    margin:20px;
+    padding:5px 20px 5px 20px;
+    color:#DC493A;
+    border-radius: 10px;
+    text-decoration: none;
+    height:100%;
+}

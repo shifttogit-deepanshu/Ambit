@@ -1,0 +1,47 @@
+.banner{
+    width:100%;
+    height:500px;
+    background-color:white;
+    display: flex;
+}
+.banner--logo-container{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner--buttons-container{
+    width:50%;
+    display: flex;
+    justify-content: center;
+}
+.banner--logo{
+    width:100%;
+}
+.play--logo{
+    width:40%;
+}
+.banner--logo-image{
+    width:50%
+}
+.download-apk-btn{
+    border:2px solid #DC493A;
+    box-sizing: border-box;
+    color:#DC493A;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left:20px;
+    padding:0px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.appmock--img{
+    width:100%;
+    z-index: 0;
+    position: relative;
+}
+.appmock{
+    width:50%;
+}

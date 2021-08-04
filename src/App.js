@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header"
+import logo from "./assets/images/logo.png"
+import playlogo from "./assets/images/playlogo.png"
+import appmock from "./assets/images/appmock.png"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <div className="banner">
+        <div className="banner--logo-container">
+          <div className="banner--logo-image"><img src={logo} className="banner--logo"/></div>
+          <div className="banner--buttons-container">
+          <img src={playlogo} className="play--logo"/>
+          <div className="download-apk-btn">Download APK</div>
+          </div>
+        </div>
+        <div className="appmock"><img src={appmock} className="appmock--img"/></div>
+      </div>
+      <div className="red-section"></div>
     </div>
   );
 }
