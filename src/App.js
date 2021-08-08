@@ -19,13 +19,13 @@ function App() {
       <Header />
       <div className="banner">
         <div className="banner--logo-container">
-          <div className="banner--logo-image"><img src={logo} className="banner--logo"/></div>
+          <div className="banner--logo-image"><img src={logo} className="banner--logo" alt="Ambit Logo"/></div>
           <div className="banner--buttons-container">
-          <img src={playlogo} className="play--logo"/>
+          <img src={playlogo} className="play--logo" alt="google-play-logo"/>
           <div className="download-apk-btn">Download APK</div>
           </div>
         </div>
-        <div className="appmock"><img src={appmock} className="appmock--img"/></div>
+        <div className="appmock"><img src={appmock} className="appmock--img" alt="Ambit mock"/></div>
       </div>
       <div className="red-section">
         <div className="mssg">Leave Behind Memories, Not Your Important Stuff</div>
@@ -38,7 +38,7 @@ function App() {
       </div>
       <div className="covid-container">
       <div className="covid-mssg"><div className="mssg2">Let's Beat Covid</div><div className="mss2-sub">A difference of carying a mask can be a difference between life and death. <br/>Let's never forget the covid rules with Ambit.</div></div>
-      <img src={covidimg} className="covidimg"/>
+      <img src={covidimg} className="covidimg" alt="Covid Drawable"/>
       </div>
       <Footer />
     </div>
