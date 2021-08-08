@@ -1,0 +1,28 @@
+.infos{
+    display: flex;
+    height:100%;
+    width:100%;
+    justify-content: space-around;
+    margin-top:100px
+}
+
+.container{
+    height:100%;
+    width:30%;
+    min-width:200px;
+    background-color:#DC493A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image{
+    width:50%;
+}
+.infoText{
+    padding:40px;
+    background-color: #DC493A;
+    color:white;
+    text-align: center;
+}
