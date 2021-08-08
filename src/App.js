@@ -37,7 +37,7 @@ function App() {
         <div className="mssg mssg-bottom">It's That Simple!</div>
       </div>
       <div className="covid-container">
-      <div className="covid-mssg"><div className="mssg2">Let's Beat Covid</div><div className="mss2-sub">A difference of carying a mask can be a difference between life and death. <br/>Let's never forget the covid rules.</div></div>
+      <div className="covid-mssg"><div className="mssg2">Let's Beat Covid</div><div className="mss2-sub">A difference of carying a mask can be a difference between life and death. <br/>Let's never forget the covid rules with Ambit.</div></div>
       <img src={covidimg} className="covidimg"/>
       </div>
       <Footer />
