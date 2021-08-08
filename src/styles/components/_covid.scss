@@ -4,28 +4,54 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @media(max-width:600px) {
+        flex-direction: column-reverse;
+    }
 }
 .covidimg{
-    width:100%
+    width:60%;
+    @media(max-width:600px) {
+        width:100%
+    }
 }
 .mssg2{
     color:#DC493A;
     font-size: 30px;
     text-align: center;
     font-weight: 900;
+
+    @media(max-width:600px) {
+        font-size: 18px;
+    }
 }
+
 .covid-img-container{
-    width:50%;
+    width:60%;
+    @media(max-width:600px) {
+        width:100%;
+    }
 }
 .mss2-sub{
-    font-size: 19;
+    font-size: 19px;
     color:#DC493A;
     text-align: center;
+
+    @media(max-width:600px) {
+        font-size: 12px;
+        margin:40px
+    }
 }
 .covid-mssg{
-    width:50%;
+    width:40%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    left: 20;
+
+    @media(max-width:600px) {
+        width:100%;
+        margin:50px;
+    }
 }
